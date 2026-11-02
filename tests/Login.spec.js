@@ -9,4 +9,5 @@ test("login to sauce Demo", async ({ page }) => {
     let login = new Login(page)
 
     await login.LoginToSauceDemo(url, username, pass)
+    await login.LoginToSauceDemo(url, username, pass)
 })
